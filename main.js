@@ -73,7 +73,9 @@ generateInputElement.addEventListener('click', function() {
     document.getElementById('name').innerHTML = 'nome: ' + nomeInputElement.value;
     document.getElementById('surname').innerHTML = 'cognome: ' + cognomeInputElement.value;
     document.getElementById("carrozza").innerHTML = 'numero carrozza: ' + Math.floor(Math.random() * 10);
+  
 })
+
 
 
 
